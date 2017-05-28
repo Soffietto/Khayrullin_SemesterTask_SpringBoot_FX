@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.kpfu.itis.khayrullin.controller.RentFormController">
+   <children>
+      <Label layoutX="252.0" layoutY="38.0" text="Rent">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="107.0" text="Full name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="146.0" text="Phone number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="179.0" text="Model">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="218.0" text="Delivery Date">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="256.0" text="Return date">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="219.0" layoutY="308.0" mnemonicParsing="false" onAction="#submit" prefHeight="49.0" prefWidth="149.0" text="Submit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="et_name" layoutX="311.0" layoutY="105.0" />
+      <TextField fx:id="et_phone_number" layoutX="311.0" layoutY="144.0" />
+      <TextField fx:id="et_car" layoutX="311.0" layoutY="177.0" />
+      <DatePicker fx:id="et_starting_date" layoutX="312.0" layoutY="216.0" prefHeight="25.0" prefWidth="171.0" />
+      <DatePicker fx:id="et_return_date" layoutX="312.0" layoutY="254.0" prefHeight="25.0" prefWidth="171.0" />
+   </children>
+</AnchorPane>

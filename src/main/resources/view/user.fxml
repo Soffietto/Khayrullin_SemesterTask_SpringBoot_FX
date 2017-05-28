@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.kpfu.itis.khayrullin.controller.UserController">
+   <children>
+      <TableView fx:id="tableView" prefHeight="362.0" prefWidth="600.0" />
+      <Button onAction="#rentCar" layoutX="19.0" layoutY="368.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="167.0" text="RENT A CAR" />
+      <Button onAction="#logOut" layoutX="475.0" layoutY="367.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="LOGOUT" />
+   </children>
+</AnchorPane>

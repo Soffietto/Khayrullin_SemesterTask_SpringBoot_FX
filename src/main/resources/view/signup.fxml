@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.kpfu.itis.khayrullin.controller.SignUpController">
+   <children>
+      <Label layoutX="45.0" layoutY="39.0" prefHeight="15.0" prefWidth="511.0" text="Azat's Car Rental Service" textFill="#da3030">
+         <font>
+            <Font name="DejaVuMathTeXGyre-Regular" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="115.0" text="Sign Up" textFill="#904b4b">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="et_image_view" fitHeight="132.0" fitWidth="264.0" layoutX="292.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/img/renting-a-car.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="et_login" layoutX="70.0" layoutY="175.0" prefHeight="31.0" prefWidth="184.0" promptText="Login" />
+      <Button layoutX="69.0" layoutY="312.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Submit" onAction="#register" />
+      <Button layoutX="164.0" layoutY="312.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Back" onAction="#toLog"/>
+      <PasswordField fx:id="et_password" layoutX="70.0" layoutY="222.0" prefHeight="31.0" prefWidth="184.0" promptText="Password" />
+      <PasswordField fx:id="et_password_confirm" layoutX="70.0" layoutY="265.0" prefHeight="31.0" prefWidth="184.0" promptText="Confirm password" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ru.kpfu.itis.khayrullin.controller.CarFormController">
+   <children>
+      <Label layoutX="201.0" layoutY="35.0" text="Car adding">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="104.0" text="Model">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="144.0" text="Year">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="190.0" text="Mileadge">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="233.0" text="Engine">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="276.0" text="Cost ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="et_model" layoutX="278.0" layoutY="102.0" />
+      <TextField fx:id="et_year" layoutX="276.0" layoutY="146.0" />
+      <TextField fx:id="et_mileage" layoutX="275.0" layoutY="188.0" />
+      <TextField fx:id="et_engine_power" layoutX="276.0" layoutY="231.0" />
+      <TextField fx:id="et_cost" layoutX="276.0" layoutY="269.0" />
+      <Button layoutX="239.0" layoutY="333.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="123.0" text="Submit" onAction="#submit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
